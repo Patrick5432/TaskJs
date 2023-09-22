@@ -2,8 +2,7 @@
 //Первое задание
 
 function maxAndMin(arr) {
-    let lastChar = arr.length - 1;
-    return arr[0] + " " + arr[lastChar];
+    return Math.max(...arr) + " " + Math.min(...arr);
 }
 console.log("First task: " + maxAndMin([2, 3, 6, 8]));
 
